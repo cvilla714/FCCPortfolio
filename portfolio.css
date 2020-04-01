@@ -1,0 +1,169 @@
+.nav {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style: none;
+    background: deepskyblue;
+    
+    
+    
+  }
+  
+  .nav li {
+      display:flex;
+      font-size: 25px;
+      margin-right: 50px;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+    color: white;
+  }
+  
+  .nav a:hover {
+    background: #1565C0;
+  }
+  
+  @media all and (max-width: 800px) {
+    .nav {
+      justify-content:space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .nav {
+      flex-flow: column wrap;
+      padding: 0;
+    } 
+    }
+  
+    .navi a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+  
+    .nav li:last-of-type a {
+      border-bottom: none;
+      
+    }
+  
+  .welcome{
+      color: #FFF;
+      font-size: 50px;
+      display:flex;    
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+      background-color:teal;
+  }
+  
+  .welcome > p{
+      font-size: 25px;
+      font-weight: 300;
+      font-style: oblique;
+      color: crimson;
+  }
+  
+  h1{
+      color: lightskyblue;
+  
+  }
+  
+  h2{
+      text-align: center;
+      font-size: 35px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: lightblue;
+  }
+  
+  
+  .d1 {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    background:lightsalmon;
+      
+    } 
+    
+  
+  .d2{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    background:lightseagreen;
+    
+    } 
+   
+  
+  .d3{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    background:lightsteelblue;
+  
+    } 
+  
+  .d4{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    background:lightgoldenrodyellow;
+    
+    } 
+  
+  .project-tile { 
+    font-size: 40px; 
+    min-height: 360px; 
+    width: 100%; 
+    background: yellow; 
+    display: grid; 
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 30px;
+  
+     }
+  
+  
+     .contact-me{
+      color: #FFF;
+      font-size: 50px;
+      display:flex;    
+      flex-direction: column;
+      justify-content:center;
+      align-items: center;
+      width: 100%;
+      height: 100vh;
+      background-color:teal;
+  
+  }
+  
+  .contact-me > p{
+      font-size: 25px;
+      font-weight: 300;
+      font-style: oblique;
+      color: crimson;
+  }   
+  
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+  
+  .links {
+    margin: 0 35px 0 35px;
+  }
+  
+  
